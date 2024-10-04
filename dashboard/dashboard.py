@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #Membaca Data
-day_df = pd.read_csv("C:/Users/ASUS/Downloads/Bike Sharing Dataset/day.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/denisadwi793/bike-sharing/refs/heads/main/data/day.csv")
 day_df.head()
-hour_df = pd.read_csv("C:/Users/ASUS/Downloads/Bike Sharing Dataset/hour.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/denisadwi793/bike-sharing/refs/heads/main/data/hour.csv")
 hour_df.head()
 
 #Set tittle untuk dashboard
