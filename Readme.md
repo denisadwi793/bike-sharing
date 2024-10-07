@@ -3,7 +3,7 @@ Repositori ini berisi analisis dashboard dataset bike sharing tahun 2011 dan 201
 
 ## Features
 
-- Visualisasi jam puncak penyewaan sepeda dalam satu minggu
+- Visualisasi pengaruh kelompok jam terhadap penggunaan sepeda
 - Visualisasi pengaruh cuaca terhadap penggunaan sepeda di hari bekerja
 - Visualisasi pengaruh cuaca terhadap penggunaan sepeda di hari libur
 
@@ -16,8 +16,8 @@ Repositori ini berisi analisis dashboard dataset bike sharing tahun 2011 dan 201
 
 #### Setup Environment - Shell/Terminal
 ```bash
-    mkdir proyek_analisis_data
-    cd proyek_analisis_data
+    mkdir proyek_analisis_data_(2)
+    cd proyek_analisis_data_(2)
     pipenv install
     pipenv shell
     pip install -r requirements.txt
