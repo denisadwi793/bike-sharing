@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 st.title("Bike Sharing Data Analysis")
 
 # Load data
-day_df = pd.read_csv("https://raw.githubusercontent.com/denisadwi793/bike-sharing/refs/heads/main/data/day.csv")
-hour_df = pd.read_csv("https://raw.githubusercontent.com/denisadwi793/bike-sharing/refs/heads/main/data/hour.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/denisadwi793/bike-sharing/refs/heads/main/dashboard/day_cleaned.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/denisadwi793/bike-sharing/refs/heads/main/dashboard/hour_cleaned.csv")
 
 
 # Visualizations
