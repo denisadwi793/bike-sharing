@@ -1,3 +1,4 @@
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -45,7 +46,7 @@ ax3.set_ylabel('Total Pengguna')
 st.pyplot(fig3)
 
 # Conclusion
-st.subheader(Kesimpulan")
+st.subheader("Kesimpulan")
 st.write("""
 - Jadi dapat disimpulkan bahwa terdapat korelasi diantara faktor cuaca dan total pengguna Bike Sharing baik pada hari kerja maupun hari libur atau tidak bekerja, dikarenakan keduanya saling bersesuaian dan tidak berlawanan. Pie Chart diatas merupakan salah satu faktor pendukung bahwa Faktor Cuaca yang menyebabkan adanya hubungan yang bersesuaian antara Faktor Cuaca di hari bekerja dan Faktor Cuaca di hari libur dengan Total pengguna Bike Sharing. Salah satu faktor pendukung lainnya berada di Eksplorasi Data day_df dimana meskipun total pengguna Bike Sharing di setiap cuaca pada hari bekerja lebih besar dibandingkan dengan total pengguna di setiap cuaca pada hari libur tetapi rata-rata diantara kedua hari tersebut tidak berbeda jauh pada masing-masing cuaca sehingga dapat disimpulkan bahwa semakin cuaca menjadi buruk atau ekstrim maka semakin sedikit total pengguna baik di hari bekerja maupun di hari libur.
 - Jadi dapat disimpulkan bahwa terdapat korelasi di tiap kelompok jam yang dikelompokkan berdasarkan Waktu dan total pengguna, salah satu faktor pendukung bahwa terdapat korelasi atau hubungan antara jumlah pengguna sepeda pada jam-jam tertentu adalah Bar Char di atas, di mana pada pengguna lebih banyak aktif menggunakan Bike Sharing di malam hari.
